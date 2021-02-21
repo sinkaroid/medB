@@ -18,7 +18,7 @@ A clear and concise description of what you expected to happen.
 
 **Desktop (please complete the following information):**
  - OS: [e.g. iOS]
- - Node version [node -v]
+ - Python version [python --version]
 
 **Additional context**
 Add any other context about the problem here.
