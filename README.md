@@ -27,7 +27,7 @@ This scraper give you full control: multiple query, bulk download, tags spelling
 <booru> <aggregated> <tags>
   │         │          │
   │         │          └─⫸ sys.argv[2] (spell):  
-  |         |            short_spell, multipletags sperated by (comma)
+  |         |            short_spell, multiple tags separated by (comma)
   |         |     
   │         │
   │         └─⫸ sys.argv[1] (pid): The page number: 1-100 afaik
