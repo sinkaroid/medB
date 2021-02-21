@@ -3,7 +3,7 @@
 This scraper give you full control: multiple query, bulk download, tags spelling with custom score.</br>
 
 ----
-[![](https://img.shields.io/pypi/v/beautifulsoup4)](https://pypi.org/project/beautifulsoup4/) [![CodeFactor](https://www.codefactor.io/repository/github/sinkaroid/medB/badge)](https://www.codefactor.io/repository/github/sinkaroid/medB) [![Build Status](https://travis-ci.com/sinkaroid/medB.svg?branch=master)](https://travis-ci.com/sinkaroid/medB)  
+[![](https://img.shields.io/pypi/v/beautifulsoup4)](https://pypi.org/project/beautifulsoup4/) [![CodeFactor](https://www.codefactor.io/repository/github/sinkaroid/medB/badge)](https://www.codefactor.io/repository/github/sinkaroid/medB) [![Build Status](https://travis-ci.com/sinkaroid/medB.svg?branch=main)](https://travis-ci.com/sinkaroid/medB)  
 
 ----
 </div>
@@ -37,7 +37,8 @@ This scraper give you full control: multiple query, bulk download, tags spelling
 
 Default `<aggregated>` is 1, which default limit retrieved 50images/pages, you can adjust in the parameter.  
 Then fill [spell](/src/spell) default last_tags is `>10` (greater than X that mean will retrieved images with score above X)  
-you can fill it with long tags or leave it blank with (space) eg: safebooru didn't supported score tags and danbooru isn't supported multiple tags iirc.
+you can fill it with long tags or leave it blank with (space)  
+eg: safebooru didn't supported score tags and danbooru isn't supported multiple tags iirc.
 
 ## Directory Tree
 You can change everything as you want but keep in mind.
