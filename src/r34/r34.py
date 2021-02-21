@@ -29,7 +29,7 @@ for tag in sys.argv[2:]:
         pathlib.Path(f"./{ven}").mkdir(exist_ok=True)
 
     for pid in range(0, int(sys.argv[1])):
-        response = requests.get(f"https://{site}/index.php?page=dapi&s=post&q=index&limit=3&tags={spell}&pid={pid}")
+        response = requests.get(f"https://{site}/index.php?page=dapi&s=post&q=index&limit=50&tags={spell}&pid={pid}")
         content = BeautifulSoup(response.content, "html.parser")
 
         for link in content.find_all("post"):

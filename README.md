@@ -68,7 +68,6 @@ medB/
 - [X] safebooru
 - [X] xbooru
 - [X] yandere
-
 - [ ] danbooru 
 - [ ] tbib
 - [ ] realbooru
